@@ -9,6 +9,6 @@ export default class GuildCreateHandler implements EventHandler {
     }
 
     private sendWelcomeMessage(channel: TextChannel | null) {
-        return channel?.send(`Hey, I'm 6PG!`);
+        return channel?.send(`Hey there. Thanks for inviting me! You can create your own bot at http://botboat.herokuapp.com`);
     }    
 }
